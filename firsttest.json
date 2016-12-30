@@ -9,12 +9,20 @@
             "name": "اعمال الاسبوع",
             "location": "Somewhere",
             "content": "https://cdn.rawgit.com/geoapi/mujerabat/master/weekly.jpg"
-          }]
+          },
+		  
+		  {
+            "avatar": "https://cdn.rawgit.com/geoapi/mujerabat/master/icon.PNG",
+            "name": "اعمال الاسبوع",
+            "location": "Somewhere",
+            "content": "https://cdn.rawgit.com/geoapi/mujerabat/master/weekly.jpg"
+          }
+		  ]
         }, {
           "avatar": "https://cdn.rawgit.com/geoapi/mujerabat/master/icon.PNG",
           "name": "مجربات المعصوم في كشف الهموم",
           "location": "..",
-          "content": "https://cdn.rawgit.com/geoapi/mujerabat/master/icon.PNG"
+          "content": "https://cdn.rawgit.com/geoapi/mujerabat/master/every-day.jpg"
         }]
       },
       "templates": {
