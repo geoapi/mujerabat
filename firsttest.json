@@ -11,10 +11,10 @@
             "content": "https://cdn.rawgit.com/geoapi/mujerabat/master/weekly.jpg"
           }]
         }, {
-          "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/barton_avatar.png",
-          "name": "Barton",
-          "location": "Somewhere",
-          "content": "https://cdn.rawgit.com/geoapi/mujerabat/master/weekly.jpg"
+          "avatar": "https://cdn.rawgit.com/geoapi/mujerabat/master/icon.PNG",
+          "name": "مجربات المعصوم في كشف الهموم",
+          "location": "..",
+          "content": "https://cdn.rawgit.com/geoapi/mujerabat/master/icon.PNG"
         }]
       },
       "templates": {
