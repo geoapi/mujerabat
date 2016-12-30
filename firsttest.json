@@ -5,7 +5,7 @@
         "posts": [{
           "type": "stories",
           "items": [{
-            "avatar": "https://cdn.rawgit.com/geoapi/mujerabat/master/icon.PNG",
+            "avatar": "",
             "name": "اعمال الاسبوع",
             "location": "Somewhere",
             "content": "https://cdn.rawgit.com/geoapi/mujerabat/master/weekly.jpg"
