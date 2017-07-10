@@ -1,0 +1,115 @@
+{
+  "$jason": {
+    "head": {
+      "title": "تسبيحات مجربات",
+      "actions": {
+        "$foreground": {
+          "type": "$reload"
+        },
+        "$pull": {
+          "type": "$reload"
+        }
+      }
+    },
+    "body": {
+      "header": {
+        "style": {
+          "background": "#ffffff"
+        }
+      },
+      "style": {
+        "background": "#ffffff",
+        "border": "none"
+      },
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "vertical",
+              "style": {
+                "padding": "30",
+                "spacing": "20",
+                "align": "center"
+              },
+              "components": [
+                {
+                  "type": "label",
+                  "text": "بسم الله الرحمن الرحيم",
+                  "style": {
+                    "align": "center",
+                    "font": "Amiri",
+                    "size": "18"
+                  }
+                },
+                {
+                  "type": "label",
+                  "text": "هذا التطبيق تجريبي ولازال في بدايته، التطبيق يسعى لان يقدم خدمة بسيطة دون اي مقابل وبدون اعلانات ولايتطلب صلاحيات خاصة ابداً",
+                  "style": {
+                    "align": "center",
+                    "font": "Amiri",
+                    "padding": "30",
+                    "size": "14"
+                  }
+                },
+                {
+                  "type": "label",
+                  "text": "{ ˃̵̑ᴥ˂̵̑}",
+                  "style": {
+                    "align": "center",
+                    "font": "HelveticaNeue-Bold",
+                    "size": "50"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "label",
+              "style": {
+                "align": "right",
+                "padding": "10",
+                "color": "#000000",
+                "font": "Amiri",
+                "size": "12"
+              },
+              "text": "تسبيحات مختارة",
+              "href": {
+                "url": "https://github.com/geoapi/mujerabat/blob/master/firsttest.json",
+                "fresh": "true"
+              }
+            },
+            {
+              "type": "label",
+              "style": {
+                "align": "right",
+                "padding": "10",
+                "color": "#000000",
+                "font": "HelveticaNeue",
+                "size": "12"
+              },
+              "text": "تسبيح لقبول الرأي والتسخير",
+              "href": {
+                "url": "https://github.com/geoapi/mujerabat/blob/master/acceptance.jpg",
+                "view": "Web"
+              }
+            },
+            {
+              "type": "label",
+              "style": {
+                "align": "right",
+                "padding": "10",
+                "color": "#000000",
+                "font": "Amiri",
+                "size": "12"
+              },
+              "text": "عداد التسبيح",
+              "href": {
+                "url": "https://geoapi.github.io/mujerabat/counter.html",
+                "view": "Web"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
