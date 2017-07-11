@@ -1,0 +1,33 @@
+{
+    "$jason": {
+        "head": {
+            "title": "Scrolling Web Container"
+            "data": {
+                "colors": [{
+                    "code": "#ff0000"
+                }, {
+                    "code": "rgba(0,0,0,0.3)"
+                }, {
+                    "code": "#00ff00"
+                }, {
+                    "code": "rgb(130,43,32)"
+                }]
+            },
+            "templates": {
+                "body": {
+                    "sections": [{
+                        "items": {
+                            "{{#each colors}}": {
+                                "type": "html",
+                                "style": {
+                                    "height": "50"
+                                },
+                                "text": "<html><head><style>h1{font-size: 30px; color: {{code}};}</style></head><body><h1>Hello World</h1></body></html>"
+                            }
+                        }
+                    }]
+                }
+            }
+        }
+    }
+}
