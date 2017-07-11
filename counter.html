@@ -29,7 +29,7 @@
   
 <script>
   window.onload = function() {
-function clickCounter() {
+var clickCounter = function () {
     if(typeof(Storage) !== "undefined") {
         if (localStorage.clickcount) {
             localStorage.clickcount = Number(localStorage.clickcount)+1;
@@ -42,7 +42,7 @@ function clickCounter() {
     }
 }
 
-function clickCounter2() {
+var clickCounter2 = function() {
      localStorage.clickcount = 0;
      document.getElementById("result").innerHTML = "العدد " + localStorage.clickcount + " مرة";
 }
