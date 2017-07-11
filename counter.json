@@ -7,7 +7,93 @@
       "style": {
         "background": {
           "type": "html",
-          "text": "<html>  Hello World </html>"
+          "text": "
+          <html>
+<head>
+  <meta charset='utf-8'>
+ <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  
+  <style>
+ .btn {
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.danger {background-color: #f44336;} /* Red */ 
+.danger:hover {background: #da190b;}
+
+  .wrapper {
+ width: 100%; height: 100px; 
+}
+    .textal{
+      text-align: center;
+}
+</style>
+  
+<script>
+function clickCounter() {
+    if(typeof(Storage) !== 'undefined') {
+        if (localStorage.clickcount) {
+            localStorage.clickcount = Number(localStorage.clickcount)+1;
+        } else {
+            localStorage.clickcount = 1;
+        }
+        document.getElementById('result').innerHTML = 'العدد ' + localStorage.clickcount + ' مرة';
+    } else {
+        document.getElementById('result').innerHTML = 'Sorry, your browser does not support web storage...';
+    }
+}
+
+function clickCounter2() {
+     localStorage.clickcount = 0;
+     document.getElementById('result').innerHTML = 'العدد ' + localStorage.clickcount + ' مرة';
+}
+
+</script>
+</head>
+<body>
+  <div class='jumbotron text-center'>
+  <h1>بسم الله الرحمن الرحيم</h1>
+  <p>اللهم صل على محمد وع آل محمد</p> 
+</div>
+  
+   
+    <div class='container'>
+  <div class='row'>
+    <div class='col-sm-4'>
+      
+    </div>
+    <div class='col-sm-4'>
+      
+      
+       
+ <p><button class='btn-block btn danger' onclick='clickCounter2()' type='button'>تصفير العداد</button></p>
+   
+    <br/>
+    <br/>
+    <br/>
+<p class='textal'><button class='btn-block btn success' onclick='clickCounter()' type='button'>إضغط هنا</button></p>
+<div id='result'></div>
+ 
+    
+    </div>
+    <div class='col-sm-4'>
+       
+    </div>
+  </div>
+</div>
+    
+    
+</body>
+</html>
+          "
         }
       }
     }
