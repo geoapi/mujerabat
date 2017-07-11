@@ -46,6 +46,18 @@
                     "font": "Reem Kufi",
                     "size": "16"
                   }
+                } ,
+                {
+                  "type": "label",
+                  "text": " ياوافي٧٧
+يا منجح الطلبات١٠٠
+يااول١٠٠
+ياعالي١٠",
+                  "style": {
+                    "align": "center",
+                    "font": "Reem Kufi",
+                    "size": "16"
+                  }
                 } 
             ]
             },
