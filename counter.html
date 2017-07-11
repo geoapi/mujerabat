@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -6,7 +5,13 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    
+<style>
+button{
+  margin:auto;
+  display:block;
+}
+</style>
+  
 <script>
 function clickCounter() {
     if(typeof(Storage) !== "undefined") {
@@ -29,16 +34,12 @@ function clickCounter2() {
 </script>
 </head>
 <body>
-      
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
+     
+ 
 <p><button class="btn success" onclick="clickCounter()" type="button">إضغط هنا!</button></p>
 <div id="result"></div>
 <p><button class="btn danger" onclick="clickCounter2()" type="button">تصفير العداد</button></p>
 
-    </div>
-  </div> 
- </div>   
+      
 </body>
 </html>
