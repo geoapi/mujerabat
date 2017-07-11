@@ -28,6 +28,7 @@
 </style>
   
 <script>
+  window.onload = function() {
 function clickCounter() {
     if(typeof(Storage) !== "undefined") {
         if (localStorage.clickcount) {
@@ -45,7 +46,7 @@ function clickCounter2() {
      localStorage.clickcount = 0;
      document.getElementById("result").innerHTML = "العدد " + localStorage.clickcount + " مرة";
 }
-
+  }
 </script>
 </head>
 <body>
