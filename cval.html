@@ -43,14 +43,15 @@ Ask();
 function Ask() {
     text = prompt("الرجاء ادخال اسمك هنا");
     if (text != null) {
+            document.getElementById("cval").innerHTML = text.abjad();
     alert("قيمة الاسم الابحدية تساوي: " + text.abjad())
-    document.getElementById("result").innerHTML = text.abjad();
     }
 }
 
 </script>
 </HEAD>
 <Body>
-Gematrical value is: <p id="result"></p>
+Math value is: 
+    <div> <p id="cval"> </p> </div>
 </Body>
 </HTML>
