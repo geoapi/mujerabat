@@ -44,6 +44,8 @@ function Ask() {
     text = prompt("الرجاء ادخال اسمك هنا");
     if (text != null) {
             document.getElementById("cval").innerHTML = text.abjad();
+            document.getElementById("demo").innerHTML = 5 + 6;
+
     alert("قيمة الاسم الابحدية تساوي: " + text.abjad())
     }
 }
@@ -52,6 +54,7 @@ function Ask() {
 </HEAD>
 <Body>
 Math value is: 
-    <div> <p id="cval"> </p> </div>
+    <p id="cval"> </p>
+    <p id="demo"></p>
 </Body>
 </HTML>
